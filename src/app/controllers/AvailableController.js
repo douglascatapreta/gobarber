@@ -52,7 +52,6 @@ class AvailableController {
         0
       );
 
-      // TODO: Verificar porque está formatando com timezone -02:00
       return {
         time,
         value: format(value, "yyyy-MM-dd'T'HH:mm:ssxxx"),
